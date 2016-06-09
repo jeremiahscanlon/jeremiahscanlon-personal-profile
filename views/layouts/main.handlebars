@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Development in the JavaScript Stack - jeremiahscanlon.com</title>
+	
+	<!-- Favicon image -->
+	<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+	<!-- Standard reset.css from http://meyerweb.com/eric/tools/css/reset/ -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+	<!-- Lato Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<!-- Materiallize - icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Materiallize - Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+	<!-- Our custom css file -->	
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+	<!-- Minified jquery -->
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+	<!-- Materiallize - Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
+</head>
+<body>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper container">
+				<a href="/" class="brand-logo"><img id="headerLogo" src="/assets/images/js_logo_gnwh_node.png" alt="JeremiahScanlon.com"></a>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<div class="panel">
+					<h2 style="text-align:center">Run the report to find out what the dealio is ...</h2>
+					<div class="col s12">
+						<div class="row">
+							<div class="input-field col s4">
+								<select id="selector">
+									<option value="0" disabled>Filter by Class</option>
+								</select>
+							</div>
+							<div class="input-field col s3">
+								<input id="priceSearch" type="text" class="">
+								<label for="priceSearch">Price greater than ... </label>
+							</div>
+							<div class="input-field col s3">
+								<input id="qtySearch" type="text" class="">
+								<label for="qtySearch">QTY In-stock greater than ... </label>
+							</div>
+							<div class="input-field col s2">
+								<a class="waves-effect waves-light btn" id="searchSubmit">SUBMIT</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					{{{body}}}
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h2 class="">Full-Stack Development in JavaScript</h2>
+					<p class="">whatever needs you have in your development stack, I'm here to help. I can use Nodejs to stand up a server. we can mine or manage data together in MySQL or Mongo. or we can just build a dope front end GUI for your web app to keep the customers coming back. look around on the site to see more info on my experience and my skills and then contact me here or look me up on linkedIn or Twitter. </p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="">Site</h5>
+					<ul>
+						<li><a class="" href="/">home</a></li>
+                        <li><a class="" href="/portfolio">portfolio</a></li>
+                        <li><a class="" href="/about-me">about me</a></li>
+                        <li><a class="" href="/contact">contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container center-align">
+				© 2016 - jeremiahscanlon.com
+			</div>
+		</div>
+	</footer>
+	
+	<script type="text/javascript">
+	$(document).ready(function() {
+
+	});
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "jeremiahscanlon-personal-profile",
+  "version": "1.0.0",
+  "description": "jeremiahscanlon.com - Built in Node, using Hapi.js for server and routing. Front end is built using Materialize CSS and jQuery functions.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiahscanlon/jeremiahscanlon-personal-profile.git"
+  },
+  "author": "Jeremiah Scanlon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremiahscanlon/jeremiahscanlon-personal-profile/issues"
+  },
+  "homepage": "https://github.com/jeremiahscanlon/jeremiahscanlon-personal-profile#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "hapi": "^13.4.1",
+    "materialize-css": "^0.97.6",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.23.3"
+  }
+}
